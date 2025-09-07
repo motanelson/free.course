@@ -8,3 +8,6 @@ https://www.netacad.com/pt/courses/introduction-to-modern-ai?courseLang=en-US
 
 
 https://www.netacad.com/courses/introduction-iot?courseLang=en-US
+
+
+
