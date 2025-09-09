@@ -54,3 +54,5 @@ https://learn.microsoft.com/pt-pt/training/courses/pl-900t00
 
 https://learn.microsoft.com/pt-pt/training/modules/get-started-with-power-bi/
 
+https://learn.microsoft.com/pt-pt/training/modules/get-started-ai-fundamentals/
+
