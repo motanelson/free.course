@@ -23,3 +23,6 @@ https://www.netacad.com/courses/operating-systems-basics?courseLang=en-US
 
 
 https://www.netacad.com/courses/linux-essentials?courseLang=en-US
+
+https://www.netacad.com/courses/c-plus-plus-essentials-1?courseLang=en-US
+
