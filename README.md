@@ -48,3 +48,4 @@ https://learn.microsoft.com/pt-pt/training/modules/fundamentals-machine-learning
 
 https://learn.microsoft.com/pt-pt/training/courses/az-900t00
 
+https://learn.microsoft.com/pt-pt/training/courses/ms-900t01
