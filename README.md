@@ -37,3 +37,5 @@ https://learn.microsoft.com/pt-pt/training/paths/microsoft-azure-fundamentals-de
 https://learn.microsoft.com/pt-pt/training/modules/fundamentals-generative-ai/
 
 https://learn.microsoft.com/pt-pt/training/modules/prepare-azure-ai-development/
+
+https://learn.microsoft.com/pt-pt/training/paths/azure-fundamentals-describe-azure-architecture-services/
