@@ -33,3 +33,5 @@ https://youtube.com/@schoolfreeware
 
 
 https://learn.microsoft.com/pt-pt/training/paths/microsoft-azure-fundamentals-describe-cloud-concepts/
+
+https://learn.microsoft.com/pt-pt/training/modules/fundamentals-generative-ai/
