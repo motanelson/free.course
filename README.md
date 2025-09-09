@@ -32,3 +32,4 @@ https://youtube.com/@schoolfreeware
 
 
 
+https://learn.microsoft.com/pt-pt/training/paths/microsoft-azure-fundamentals-describe-cloud-concepts/
