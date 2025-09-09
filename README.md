@@ -45,3 +45,6 @@ https://learn.microsoft.com/pt-pt/training/paths/data-analytics-microsoft/
 https://learn.microsoft.com/pt-pt/training/paths/describe-azure-management-governance/
 
 https://learn.microsoft.com/pt-pt/training/modules/fundamentals-machine-learning/
+
+https://learn.microsoft.com/pt-pt/training/courses/az-900t00
+
