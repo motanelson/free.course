@@ -14,3 +14,7 @@ https://www.netacad.com/courses/python-essentials-1?courseLang=en-US
 
 
 https://www.netacad.com/courses/computer-mobile-devices?courseLang=en-US
+
+
+https://www.netacad.com/courses/computer-hardware-basics?courseLang=en-US
+
