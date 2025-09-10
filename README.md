@@ -58,4 +58,3 @@ https://learn.microsoft.com/pt-pt/training/modules/get-started-ai-fundamentals/
 
 https://www.youtube.com/watch?v=i_iYEB9Pcqw
 
-
