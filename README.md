@@ -52,3 +52,7 @@ https://www.netacad.com/courses/javascript-essentials-1?courseLang=en-US
 
 https://www.netacad.com/courses/computer-hardware-basics?courseLang=en-US
 
+
+https://www.netacad.com/courses/operating-systems-basics?courseLang=en-US
+
+
