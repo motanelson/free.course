@@ -31,3 +31,7 @@ https://www.youtube.com/watch?v=i_iYEB9Pcqw
 
 https://www.netacad.com/about-skillsforall
 
+
+https://www.netacad.com/courses/introduction-iot?courseLang=en-US
+
+
