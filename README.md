@@ -59,3 +59,4 @@ https://www.netacad.com/courses/operating-systems-basics?courseLang=en-US
 https://www.netacad.com/courses/linux-essentials?courseLang=en-US
 
 https://youtube.com/@schoolfreeware
+
