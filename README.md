@@ -33,6 +33,10 @@ https://www.tutorialspoint.com/discrete_mathematics/index.htm
 https://www.tutorialspoint.com/mobile_computing/index.htm
 
 
+https://www.tutorialspoint.com/social_media_marketing/index.htm
+
+
+
 
 
 
