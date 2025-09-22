@@ -30,6 +30,9 @@ https://www.tutorialspoint.com/data_structures_algorithms/index.htm
 https://www.tutorialspoint.com/discrete_mathematics/index.htm
 
 
+https://www.tutorialspoint.com/mobile_computing/index.htm
+
+
 
 
 
