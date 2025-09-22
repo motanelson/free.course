@@ -11,3 +11,9 @@ https://www.tutorialspoint.com/3d-printing-what-it-is-how-it-works-examples
 
 
 https://www.tutorialspoint.com/3d-printing-and-its-future
+
+
+
+https://www.tutorialspoint.com/machine_learning/index.htm
+
+
