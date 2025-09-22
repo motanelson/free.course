@@ -27,5 +27,9 @@ https://www.tutorialspoint.com/data_communication_computer_network/index.htm
 
 https://www.tutorialspoint.com/data_structures_algorithms/index.htm
 
+https://www.tutorialspoint.com/discrete_mathematics/index.htm
+
+
+
 
 
