@@ -19,3 +19,4 @@ https://www.tutorialspoint.com/machine_learning/index.htm
 
 https://www.tutorialspoint.com/basics_of_computers/index.htm
 
+https://www.tutorialspoint.com/data_science/index.htm
