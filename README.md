@@ -25,3 +25,7 @@ https://www.tutorialspoint.com/data_science/index.htm
 https://www.tutorialspoint.com/data_communication_computer_network/index.htm
 
 
+https://www.tutorialspoint.com/data_structures_algorithms/index.htm
+
+
+
