@@ -17,3 +17,5 @@ https://www.tutorialspoint.com/3d-printing-and-its-future
 https://www.tutorialspoint.com/machine_learning/index.htm
 
 
+https://www.tutorialspoint.com/basics_of_computers/index.htm
+
