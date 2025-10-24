@@ -2,8 +2,7 @@
 doc:
 
 
-https://docs.unity3d.com/6000.2/Documentation/Manual/index.html
-
+https://youtu.be/vCbN86VwR5o?si=UnSu6Y-hITnuy-wi
 
 
 
