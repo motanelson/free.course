@@ -2,7 +2,7 @@
 doc:
 
 
-https://www.gocosmos.org/
+https://openscad.org/documentation.html
 
 
 
