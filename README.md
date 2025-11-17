@@ -1,20 +1,4 @@
-
-doc:
-
-https://en.wikipedia.org/wiki/Lens
-
-
-https://openscad.org/documentation.html
-
-
-https://openscad.org/downloads.html
-
-
-https://en.wikipedia.org/wiki/Lens_(vertebrate_anatomy)
-
-
-
-https://en.wikipedia.org/wiki/Curved_mirror
+https://training.linuxfoundation.org/training/introduction-to-riscv-lfd110/
 
 
 
