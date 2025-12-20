@@ -6,4 +6,4 @@
 
 0x2800 - file number 0 start file 
 
-
+file number 0 is a directory entry root
