@@ -1,8 +1,4 @@
-https://en.wikipedia.org/wiki/File_Allocation_Table#FAT32
-
-
-
-https://en.wikipedia.org/wiki/ISO_9660
-
-
+0-511 disk info and boot
+511 0x1400-file alocation table 
+0x1400- file allocation table backup
 
