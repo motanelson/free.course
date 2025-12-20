@@ -4,4 +4,6 @@
 
 0x1400- file allocation table backup
 
+0x2800 - file number 0 start file 
+
 
