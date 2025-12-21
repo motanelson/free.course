@@ -4,7 +4,7 @@
 
 0x1400- file allocation table backup
 
-0x2800 - file number 0 start file 
+0x2600 - file number 0 start file 
 
 file number 0 is a directory entry root
 
