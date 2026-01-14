@@ -6,4 +6,4 @@ https://www.kernel.org/pub/dist/superrescue/v1/superrescue-1.3.1a.iso.gz
 https://www.kernel.org/
 
 
-https://planet.kernel.org/
+
