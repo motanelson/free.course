@@ -1,3 +1,3 @@
-https://developers.google.com/android/blobs-preview
+https://www.ubuntu-touch.io/
 
-https://developer.android.com/topic/generic-system-image/releases?hl
+
