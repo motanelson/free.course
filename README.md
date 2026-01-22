@@ -1,9 +1,1 @@
-https://www.ubuntu-touch.io/
-
-
-https://snapcraft.io/docs/get-started
-
-
-https://snapcraft.io/store?categories=development&architecture=i386
-
-
+https://www.oracle.com/java/technologies/javameoverview.html#sdk
