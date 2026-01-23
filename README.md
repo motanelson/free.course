@@ -42,7 +42,7 @@ This layer is common in:
 System utilities
 Embedded software
 Performance-critical applications
-Native code provides high efficiency and low resource usage, which is especially important for small or resource-constrained devices.
+Native code provides high efficiency and low resource usage, which is especially important for small or resource-constrained devices. ddl and dynamic libs .static libs.
 5. Virtual Machines and Managed Runtimes
 The highest software layer often consists of virtual machines (VMs) or managed runtime environments. These platforms abstract the underlying OS and hardware, allowing applications to be portable across different systems.
 Examples include:
