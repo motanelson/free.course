@@ -5,6 +5,10 @@ open java:
 https://wiki.debian.org/Java
 
 
+https://dotnet.microsoft.com/en-us/download/dotnet-framework
+
+
+
 Software Layers: From ROM and BIOS to Virtual Machines
 Modern computing systems are built using multiple layers of software, each one responsible for a specific role in the startup process, hardware management, and application execution. Understanding these layers helps clarify how devices boot, operate, and run complex software efficiently, from small embedded systems to powerful servers and mobile devices.
 1. ROM and BIOS: The Foundation Layer
