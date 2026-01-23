@@ -1,5 +1,7 @@
 https://www.oracle.com/java/technologies/javameoverview.html#sdk
 
+open java:
+https://wiki.debian.org/Java
 
 
 Software Layers: From ROM and BIOS to Virtual Machines
