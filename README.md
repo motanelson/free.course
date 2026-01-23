@@ -1,3 +1,4 @@
+small devices:
 https://www.oracle.com/java/technologies/javameoverview.html#sdk
 
 open java:
