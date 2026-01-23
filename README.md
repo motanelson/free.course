@@ -4,6 +4,7 @@ https://www.oracle.com/java/technologies/javameoverview.html#sdk
 open java:
 https://wiki.debian.org/Java
 
+https://gcc.gnu.org/onlinedocs/gcj/index.html#Top
 
 https://dotnet.microsoft.com/en-us/download/dotnet-framework
 
