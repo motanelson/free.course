@@ -6,3 +6,5 @@ https://www.microsoft.com/en-us/power-platform/blog/power-apps/power-fx-open-sou
 
 https://learn.microsoft.com/en-us/power-platform/developer/howto/install-cli-msi
 
+https://learn.microsoft.com/en-us/power-platform/power-fx/formula-reference-canvas-apps
+
