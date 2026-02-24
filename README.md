@@ -5,3 +5,6 @@ https://adoption.microsoft.com/en-us/ai-agents/sharepoint-agents/
 
 https://www.microsoft.com/insidetrack/blog/keeping-our-content-fresh-findable-and-governed-at-microsoft-with-ai-powered-sharepoint/
 
+https://techcommunity.microsoft.com/blog/spblog/introducing-knowledge-agent-in-sharepoint/4454154
+
+
