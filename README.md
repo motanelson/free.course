@@ -1,1 +1,1 @@
-https://partner.microsoft.com/en-us/explore/solution-areas/cloud-ai-platforms
+https://youtu.be/oPSHs71mTVU?si=4MTXMPMT7ZK9AVZj
