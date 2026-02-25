@@ -1,1 +1,1 @@
-https://www.microsoft.com/microsoft-365/onedrive/online-cloud-storage
+https://partner.microsoft.com/en-us/explore/solution-areas/cloud-ai-platforms
