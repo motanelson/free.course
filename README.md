@@ -1,3 +1,1 @@
-https://en.wikipedia.org/wiki/Das_U-Boot
-
-https://u-boot.org/
+https://en.wikipedia.org/wiki/Isaac_Newton
