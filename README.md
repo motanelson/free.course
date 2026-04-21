@@ -21,3 +21,7 @@ https://youtube.com/shorts/fWYUMRlka8k?si=iH1UHnHDFF3ybK9b
 
 
 https://pip.raspberrypi.com/documents/RP-009106-MM-touch-display-2-product-brief.pdf
+
+
+
+https://www.raspberrypi.com/products/display-cable/
