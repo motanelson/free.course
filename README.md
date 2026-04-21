@@ -25,3 +25,12 @@ https://pip.raspberrypi.com/documents/RP-009106-MM-touch-display-2-product-brief
 
 
 https://www.raspberrypi.com/products/display-cable/
+
+
+
+
+
+https://www.amazon.com/google-cardboard-lenses/s?k=google+cardboard+lenses
+
+
+
