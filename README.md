@@ -34,3 +34,7 @@ https://www.amazon.com/google-cardboard-lenses/s?k=google+cardboard+lenses
 
 
 
+https://www.ti.com/product-category/sensors/magnetic/products.html
+
+
+
