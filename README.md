@@ -4,7 +4,7 @@ all about 3d glasses handset
 
 
 
-https://www.raspberrypi.com/products/
+https://www.raspberrypi.com/products/raspberry-pi-zero-2-w/
 
 
 
