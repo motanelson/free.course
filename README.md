@@ -46,4 +46,4 @@ https://www.ti.com/product-category/sensors/magnetic/products.html
 
 
 
-same correction the raspberry pi zero 2w dont have video parallel mus use rasp 4
+same correction the raspberry pi zero 2w dont have video parallel mus use rasp 4 1giga bytes
