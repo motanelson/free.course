@@ -8,7 +8,7 @@ https://www.raspberrypi.com/products/touch-display-2/
 
 
 
-https://www.raspberrypi.com/products/raspberry-pi-zero-2-w/
+https://www.raspberrypi.com/products/raspberry-pi-4-model-b/
 
 
 
