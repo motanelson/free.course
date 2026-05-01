@@ -1,1 +1,1 @@
-https://github.com/microsoft/MS-DOS
+this weak learn all about .o object files an links
