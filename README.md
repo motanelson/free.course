@@ -1,1 +1,1 @@
-this weak learn all about .o object files an links
+All about  this weak compilers of compulers
