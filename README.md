@@ -6,3 +6,4 @@ https://pypi.org/project/cirq/
 
 
 
+https://pypi.org/project/cirq/#tutorials
