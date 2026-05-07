@@ -15,3 +15,11 @@ https://quantumai.google/cirq/experiments/
 
 
 https://quantumai.google/cirq/experiments/qaoa/example_problems
+
+
+
+https://quantumai.google/cirq/experiments/qaoa/tasks
+
+
+
+
