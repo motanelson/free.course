@@ -1,1 +1,4 @@
-All about  this weak compilers of compilers
+https://www.tutorialspoint.com/quantum-computing/index.htm
+
+
+
