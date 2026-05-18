@@ -101,5 +101,119 @@ and have quite sophisticated memories.
 
  Their brains are so different from ours that many biologists describe them as an example of "alien intelligence" that evolved on Earth.
 
+In fact, some terrestrial animals can perceive polarized light—especially insects—but almost none can produce or control visible polarization patterns like marine cephalopods do.
 
+The difference is closely linked to the physics of light in terrestrial versus aquatic environments.
+
+First: several terrestrial animals detect polarization.
+
+For example:
+
+European honeybee
+
+Desert ant
+
+Dragonfly
+
+They use polarization patterns in the sky for:
+
+navigation,
+
+orientation,
+
+finding water,
+
+locating the sun even with clouds.
+
+So why haven't terrestrial animals evolved "polarized camouflage"?
+
+1. In water, polarization is much more useful.
+
+Underwater:
+
+light scatters strongly,
+
+there are many reflections,
+
+visual contrast is reduced.
+
+Polarization becomes a kind of "extra channel" of visual information.
+
+ Cephalopods exploited this because:
+
+they live in a complex optical environment,
+
+many marine predators also detect polarization.
+
+In the air, light is cleaner and more direct. Color, shape, and shadow already work extremely well.
+
+2. Producing controlled polarization is biologically difficult
+
+To manipulate polarization, one needs:
+
+highly organized microscopic structures,
+
+transparent or semicrystalline materials,
+
+fine control of molecular orientation.
+
+Cephalopods possess highly specialized reflective cells:
+
+iridophores,
+
+reflective protein plates,
+
+oriented nanostructures.
+
+This is rare in terrestrial animals because:
+
+skin and fur scatter light chaotically,
+
+feathers and fur typically destroy polarization patterns.
+
+3. In a terrestrial environment, this would have little evolutionary benefit
+
+Evolution does not create complexity without a strong advantage.
+
+ On land:
+
+hiding with color already works very well;
+
+normal visual communication is sufficient;
+
+few predators “read” polarization.
+
+In the ocean, however, polarization can:
+
+reveal transparent prey,
+
+cut the glare of the water,
+
+transmit invisible signals to other animals.
+
+4. Water favors sophisticated optical effects
+
+Many extreme visual phenomena have evolved in the sea:
+
+bioluminescence,
+
+body transparency,
+
+dynamic iridescence,
+
+ultra-fast active camouflage.
+
+Cephalopods are practically the “masters of optical engineering” in nature.
+
+Interestingly, scientists are studying the skin of octopuses and cuttlefish to create:
+
+flexible screens,
+
+military camouflage materials,
+
+optical sensors,
+
+smart fabrics,
+
+and surfaces that dynamically change the properties of light.
  
