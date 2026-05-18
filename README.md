@@ -886,4 +886,138 @@ or visual computing.
 Cephalopods, for example, seem to almost "program" their body appearance in real time using principles that we now study in computer vision and smart materials.
 
 
+Exactly.
+
+Modern military camouflage is designed based on the same biological principles as animal camouflage.
+
+It's not random nor just "decoration."
+
+Each pattern attempts to:
+
+reduce contrast;
+
+break up the human silhouette;
+
+blend in with the average colors of the environment;
+
+and confuse the observer's brain.
+
+That's why there are different camouflages for different environments.
+
+Forest
+
+Greens, browns, dark shadows.
+
+Similar to:
+
+leaves;
+
+earth;
+
+tree trunks;
+
+irregular vegetation.
+
+Desert
+
+Tones:
+
+sand;
+
+beige;
+
+light brown.
+
+To match:
+
+rock;
+
+dust;
+
+intense light.
+
+Snow
+
+White and light gray.
+
+Very similar to the logic of:
+
+the polar bear
+
+or the Arctic hare.
+
+ The most interesting thing: the goal is to trick the brain.
+
+Modern patterns don't try to "draw sheets."
+
+Instead:
+
+they use blotches;
+
+fractals;
+
+pixels;
+
+irregularity.
+
+Because the human brain looks for:
+
+contours;
+
+human shapes;
+
+continuous lines.
+
+If these lines are broken, it takes a person longer to recognize a soldier.
+
+That's why digital patterns emerged.
+
+Example: The United States Marine Corps developed "digital" patterns.
+
+The "pixels" work well because:
+
+they create visual noise at various distances;
+
+they confuse depth perception;
+
+and they break up body edges.
+
+And there's another important detail:
+
+Camouflage depends on:
+
+distance;
+
+light;
+
+movement;
+
+and the specific environment.
+
+An excellent pattern in the forest can become very visible:
+
+in a city;
+
+in the desert;
+
+or in the snow.
+
+ Interestingly…
+
+Many armies have studied animals to improve camouflage:
+
+tigers;
+
+octopuses;
+
+insects;
+
+zebras;
+
+fish.
+
+The modern idea of ​​“adaptive camouflage” — clothing that automatically changes its pattern — comes directly from cephalopods like the mimic octopus and cuttlefish.
+
+
+
 
