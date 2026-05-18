@@ -651,5 +651,116 @@ Isto mostra como a camuflagem está profundamente ligada à física da luz e ao 
 
 
 
+Yes — the pups of some Arctic seals have white fur for precisely that reason: to reduce contrast against snow and ice.
+
+A famous example is the Greenland Seal.
+
+The pups are born with a very fluffy white fur called lanugo.
+
+Why does white work so well on snow?
+
+Snow reflects light in almost every direction:
+
+it is extremely bright;
+
+diffuse;
+
+and with little contrast.
+
+If an animal is:
+
+dark,
+
+too bright,
+
+or has strong outlines,
+
+it becomes immediately visible.
+
+White “scatters” light in a way similar to snow.
+
+Are the furs transparent?
+
+In many Arctic animals, yes — or partially.
+
+Like in the polar bear:
+
+individual hairs can be translucent;
+
+the white appearance arises from the way light is scattered between fibers and air.
+
+It's not “white paint” like human paint.  It's another structural optical effect.
+
+Why are the pups whiter than the adults?
+
+Because the pups:
+
+remain motionless on the ice;
+
+are vulnerable;
+
+rely on not being seen.
+
+Adults, on the other hand:
+
+spend more time in the water;
+
+need a different type of coloration.
+
+The adult Greenland Seal develops dark and silvery patterns.
+
+There's another fascinating detail:
+
+White in the snow works best:
+
+at a distance;
+
+under diffused light;
+
+in open environments.
+
+But up close:
+
+shadows;
+
+eyes;
+
+nose;
+
+body contours
+
+still give away the animal.
+
+That's why many Arctic predators rely heavily on:
+
+smell;
+
+hearing;
+
+or movement.
+
+Snow is a strange visual environment.
+
+It's almost the terrestrial equivalent of an "empty sky":
+
+lots of brightness;
+
+little pattern;  Extreme contrast.
+
+Therefore, Arctic animals tend to use:
+
+smooth shapes;
+
+diffuse fur;
+
+matte white;
+
+and motionless behavior.
+
+All of this reduces the predator's brain's ability to separate "object" from "background".
+
+
+
+
 
 
