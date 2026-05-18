@@ -531,6 +531,124 @@ In a clear sky, physics makes this much more difficult because there is little "
 
 
 
+Exatamente.
+Esse é um dos exemplos clássicos de como a evolução adapta a cor ao ambiente dominante.
+
+Urso-polar
+
+Vive em:
+
+gelo,
+
+neve,
+
+nevoeiro ártico,
+
+mar gelado.
+
+
+A pelagem clara ajuda a:
+
+reduzir contraste;
+
+aproximar-se da luminosidade da neve;
+
+caçar focas sem ser facilmente visto.
+
+
+Curiosamente, os pelos do urso-polar são quase transparentes — parecem brancos porque espalham a luz.
+
+
+---
+
+Urso-pardo
+
+Vive em:
+
+florestas,
+
+montanhas,
+
+tundra,
+
+vegetação escura.
+
+
+O castanho funciona melhor porque:
+
+combina com troncos;
+
+terra;
+
+rochas;
+
+vegetação seca;
+
+sombras da floresta.
+
+
+
+---
+
+Mas há um detalhe interessante
+
+Os ursos não dependem tanto da camuflagem como predadores pequenos.
+
+Porque:
+
+são enormes;
+
+muito fortes;
+
+e muitos animais já os detectam pelo cheiro antes de os ver.
+
+
+Então a cor ajuda, mas não é a única defesa.
+
+
+---
+
+A evolução segue o “contraste médio”
+
+Na natureza, muitas cores surgem porque reduzem contraste com o ambiente dominante:
+
+neve → branco;
+
+floresta → castanho/verde;
+
+deserto → areia;
+
+oceano aberto → azul/cinzento;
+
+fundo marinho → padrões quebrados.
+
+
+
+---
+
+Há até animais que mudam conforme a estação
+
+Exemplo:
+
+Lebre-ártica
+
+Arminho
+
+
+No verão:
+
+castanhos.
+
+
+No inverno:
+
+brancos.
+
+
+Porque a neve muda completamente o fundo visual.
+
+Isto mostra como a camuflagem está profundamente ligada à física da luz e ao ambiente visual onde o animal evoluiu.
+
 
 
 
