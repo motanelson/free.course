@@ -1019,5 +1019,88 @@ fish.
 The modern idea of ​​“adaptive camouflage” — clothing that automatically changes its pattern — comes directly from cephalopods like the mimic octopus and cuttlefish.
 
 
+Yes — the idea is similar, but with an important nuance.
+
+A seagull appears "white" when viewed against the sky because the background is also very light. This reduces contrast, especially when it is gliding or at high altitude.
+
+And yes — airplanes use the same basic principle.
+
+Many military aircraft use "sky blending" camouflage, that is:
+
+light gray or bluish tones;
+
+to approximate the average color of the sky;
+
+especially when viewed from below.
+
+The logic is simple:
+
+if the background is light, the object must also be light to reduce contrast.
+
+But there are important differences:
+
+1. Airplanes are not "pure white"
+
+Because:
+
+the sky changes (blue, cloudy, sunset);
+
+there are shadows on the aircraft itself;
+
+glare can reveal its shape.
+
+Therefore, they use:
+
+medium gray;
+
+gradients;
+
+anti-reflective paint.
+
+ 2. The goal is not to disappear — it's to delay detection.
+
+Even a camouflaged aircraft:
+
+can be seen against clouds;
+
+can be detected by radar;
+
+can be identified by its movement.
+
+Visual camouflage only helps with part of the problem.
+
+3. Silhouette is more important than color.
+
+Just like in the sky:
+
+the brain detects shapes against a uniform background.
+
+Therefore, modern aircraft also try to:
+
+smooth lines;
+
+avoid very "human" or symmetrical angles;
+
+reduce edge glare.
+
+Simple comparison:
+
+Seagull → natural camouflage by color + environment
+
+Airplane → partial camouflage + engineering + other systems (radar, infrared)
+
+Conclusion:
+
+Yes: the idea of ​​"blending in with the sky seen from below" is exactly one of the principles of aerial camouflage.  But airplanes don't rely solely on that, because in the real world:
+
+vision is only one of the sensors;
+
+and often it's not even the main one.
+
+If you want, — that's almost even more interesting than visual camouflage.
+
+
+
+
 
 
