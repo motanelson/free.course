@@ -1,1 +1,9 @@
-https://youtu.be/d7YKO9V6kSg?si=KTZ-7zhxpI4h6g75
+
+
+https://docs.oracle.com/javase/specs/jvms/se7/html/jvms-6.html
+
+
+https://docs.oracle.com/javase/specs/jvms/se7/html/jvms-2.html#jvms-2.11.1
+
+
+
