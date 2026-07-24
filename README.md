@@ -1,4 +1,1 @@
-About
-This week all about to encript docs
-
-programs and games about encript
+https://docs.oracle.com/javase/specs/jvms/se24/html/jvms-6.html
