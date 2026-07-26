@@ -1,1 +1,1 @@
-https://docs.oracle.com/javase/specs/jvms/se24/html/jvms-6.html
+https://play.google.com/store/apps/details?id=ru.playsoftware.j2meloader
