@@ -1,1 +1,1 @@
-https://dotnet.microsoft.com/en-us/download
+https://cosmosos.github.io/index.html
