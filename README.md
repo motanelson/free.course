@@ -1,7 +1,1 @@
-https://mega.nz/file/kjp1HLgK#AH0e-QEKpvzw49uqUsjOe94bGqLCMPHtgEDoLoUWhx8
-
-
-https://play.google.com/store/apps/details?id=air.com.eu.inove.sss2
-
-
-astronomy tutor
+The history of photonics begins with two diodes, one a light emitter and the other a light receiver; however, there was still some interference from the sun and artificial lamps. Therefore, diode manufacturers created light-modulated diodes (LDBs), which allow the creation of a modulated light signal between two diodes without interference from artificial light or sunlight. The signal travels from point A to point B without interference from external light. This led to the need to channel the light from point A to point B using optical fibers, and using conventional optics to focus the channeled light, concentrating the maximum amount of light on the receiving diode at point B of the emitter. Mirrors and optical materials were also used.
