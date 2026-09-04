@@ -1,1 +1,1 @@
-https://sourceforge.net/projects/chmprocessor/
+sudo dnf install kchmviewer.x86_64
