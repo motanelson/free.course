@@ -47,3 +47,55 @@ It’s a lot like a standard computer:
 It’s not the electron itself that knows how to do 2 + 2.
 It’s the circuit that manipulates physical states in a way we interpret as a calculation.
 And here’s something really cool: if you like, I can explain it using 2 or 3 qubits and a visual example of a calculation—with practically no math—so you can see exactly how a quantum computer performs a calculation. I think that’s when it will really click for you. 😄
+
+
+Alright 😄 Let's do this without complicated physics. The best approach is to grasp the trick first, and only then understand where the electrons come in.
+
+🧩 Imagine a very simple problem
+
+We have a box with 4 possibilities:
+┌─────────┐ │ 00 │ │ 01 │ │ 10 │ │ 11 │ └─────────┘ 
+We want to find out, for example, which of these possibilities is the correct one.
+On a standard computer, we might try them out:
+00 → no 01 → no 10 → YES! 🎯 
+With a quantum computer, something different happens.
+
+⚛️ First: we put the qubits into superposition
+
+With 2 qubits, we can create a state that involves:
+00 01 10 11 
+all at the same time.
+It’s not that we have four tiny computers working separately. It is a single quantum state containing amplitudes associated with the four possibilities.
+And this is where the magic begins.
+
+🌊 Next, we use interference
+
+Think of water waves.
+Two waves can:
+wave + wave → 🌊🌊 → larger wave 
+or:
+wave + opposing wave → 🌊 + ~~~ → almost nothing 
+Quantum algorithms do something similar with the amplitudes of the possibilities.
+We want to manipulate the system so that:
+00 → decreases 01 → decreases 10 → INCREASES 📈 11 → decreases 
+And then we take a measurement.
+The probability of getting 10 becomes much higher.
+That is how the calculation emerges.
+
+🤯 And where do the electrons come in?
+
+Now we can go back to the video.
+A quantum computer needs something physical capable of representing those states.
+For example, we can use an electron property called spin.
+To put it very simply:
+electron │ └── quantum state ├── ↑ └── ↓ 
+We can assign:
+↑ = 0 ↓ = 1 
+And using electromagnetic fields, lasers, microwaves, or other methods—depending on the technology—we can alter that state.  So:
+electron → quantum state → qubit → operations → result
+The electron isn't calculating 2 + 2.
+We are controlling the electron's quantum state in a way that allows an algorithm to run.
+And there’s an even more interesting part: a quantum computer isn't simply a "much faster" regular computer. For certain problems, it uses these phenomena in a way that a classical computer cannot efficiently replicate.
+If you like, in the next step I can show something like:
+|0⟩ → [H] → [X] → measurement
+...and do it without getting into equations. That’s where you really start to understand how to program a quantum computer. 😄
