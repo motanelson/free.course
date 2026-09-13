@@ -70,6 +70,8 @@ And this is where the magic begins.
 
 🌊 Next, we use interference
 
+
+
 Think of water waves.
 Two waves can:
 wave + wave → 🌊🌊 → larger wave 
@@ -99,3 +101,77 @@ And there’s an even more interesting part: a quantum computer isn't simply a "
 If you like, in the next step I can show something like:
 |0⟩ → [H] → [X] → measurement
 ...and do it without getting into equations. That’s where you really start to understand how to program a quantum computer. 😄
+
+
+Sure 😄 Let's take a real quantum circuit but treat it like a small program.
+
+🧱 We start with two qubits
+
+At the beginning:
+Qubit A = 0 Qubit B = 0 
+Visually:
+A ─── [ H ] ─── [ CNOT ] ─── 📏 B ──────────────[ CNOT ] ─── 📏 
+Don't worry about the name CNOT just yet.
+
+1️⃣ The H gate — the "mixer"
+
+The first operation is:
+A = 0 H 0 ─── [ H ] ─── 
+The H (Hadamard) gate puts the qubit into superposition.
+It's like saying:
+
+"Instead of simply being at 0, I'm going to create a quantum combination of 0 and 1."
+
+So, conceptually:
+0 ↓ H 0 + 1 
+⚠️ This doesn't mean that if you ask the qubit, it will answer "0 and 1." If you measure it, you'll get either 0 or 1.
+
+2️⃣ Now the second qubit enters
+
+We have:
+A → superposition B → 0 
+Now we use an operation that makes the two qubits interact.
+The CNOT can initially be thought of like this:
+
+"If A is 1, change B."
+
+So, the possibilities start becoming related.
+The result of this small circuit is a state where there is a very interesting relationship between the two qubits:
+00 11 
+These two possibilities become entangled.
+
+3️⃣ And this is starting to look like computing
+
+Now imagine we add more gates:
+A ──[H]──[CNOT]──[H]──[ ... ]── measurement B ───────[CNOT]────────[ ... ]── measurement 
+Each gate modifies the quantum state.  It’s similar to a standard program:
+x = 0 x = operation1(x) x = operation2(x) x = operation3(x) print(x)
+The difference is that, on a quantum computer, the operations manipulate quantum amplitudes, and these amplitudes can interfere with one another.
+
+🤯 And here’s the real trick
+
+Imagine an algorithm needs to consider:
+A ├── possibility 1 ├── possibility 2 ├── possibility 3 └── possibility 4
+The goal isn't simply to "try them all and then choose."
+The algorithm is designed to do this:
+wrong possibilities ↓ interference ↓ decrease correct possibility ↓ interference ↓ increase
+In the end:
+📏 MEASURE ↓ probable result → 🎯
+Interference is one of the truly powerful aspects of quantum computing.
+
+🧠 And now, the connection to mathematics
+
+This is likely the point that was missing from the video you watched.
+Quantum gates are mathematical operations.
+For example, a gate might transform:
+state A → state B
+Another:
+state B → state C
+And we can chain them together:
+A → operation 1 → operation 2 → operation 3 → result
+In other words, just like in a standard program:
+data ↓ function() ↓ function() ↓ result
+on a quantum computer:
+qubits ↓ quantum gate ↓ quantum gate ↓ quantum gate ↓ measurement
+The "quantum" part lies in how those states behave; the "computer" part lies in the fact that we can control those states through mathematical operations.
+😄
