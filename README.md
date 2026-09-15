@@ -72,3 +72,95 @@ Thus, two devices could run Windows CE yet be quite different internally:
     PDA A        PDA B
 Windows CE provided a sort of common platform, while different manufacturers chose different CPUs.
 And there is also an important nuance: Motorola was not equivalent to ARM. ARM was primarily a CPU architecture/IP, whereas Motorola was a company that designed and manufactured various processor families. At certain times, a company might even manufacture an ARM-based processor.
+
+Linux already existed on these mobile devices and in embedded systems. What happened was that, in the 1990s and early 2000s, Linux lacked the commercial presence and ecosystem that Windows CE enjoyed on PDAs and mobile devices.
+The difference boils down to this:
+1. Windows CE was designed from the start for small-scale hardware
+Microsoft created Windows CE specifically for resource-constrained devices:
+ARM / MIPS / SH / x86 CPU
+          ↓
+      Windows CE
+          ↓
+ ┌────────┼────────┐
+ APIs   drivers   services
+          ↓
+   OEM applications
+A manufacturer could buy or license Windows CE and adapt the necessary components to their specific hardware.
+This was highly attractive to manufacturers of PDAs, GPS units, industrial terminals, and so on.
+2. Linux could do practically the same thing
+Linux is a kernel that can also be compiled for various architectures.
+For example:
+             Linux
+               │
+       ┌───────┼────────┐
+       ↓       ↓        ↓
+      ARM     MIPS     x86
+       ↓       ↓        ↓
+     SoC A   SoC B    CPU C
+And Linux was already running on ARM and MIPS long before modern smartphones arrived.
+The problem wasn't simply:
+"Linux didn't exist."
+It was more a case of:
+"There was no standardized mobile Linux platform with the tools, drivers, graphical interfaces, and commercial support comparable to Windows CE."
+3. What about C libraries?
+You’re touching on a very important point here.
+In Linux, there is typically a chain that looks like this:
+C application
+    ↓
+C libraries
+    ↓
+system calls
+    ↓
+Linux kernel
+    ↓
+driver
+    ↓
+CPU / hardware
+C libraries can be compiled for ARM, MIPS, x86, etc.
+For instance, a library like libc might have one implementation for ARM and another for MIPS.
+However, a library compiled for ARM cannot automatically run on MIPS.  It’s the same idea:
+same C source code
+       │
+       ├── ARM compiler → ARM binary
+       │
+       └── MIPS compiler → MIPS binary
+4. So why did Windows CE gain traction?
+Because Microsoft provided manufacturers with a relatively integrated package:
+kernel
+APIs
+libraries
+file system
+device support
+development tools
+graphical environment
+documentation
+commercial support
+mechanisms for manufacturers to create their own system images
+The manufacturer could say:
+"I have this ARM processor, this screen, this storage controller, and these peripherals."
+And build a specific Windows CE image for that device.
+5. But Linux was on servers!
+Exactly—and here lies an interesting historical distinction.
+On servers, Linux had a very strong trajectory because server hardware was relatively standardized, especially x86.
+x86 server
+     ↓
+   Linux
+     ↓
+Apache / databases / etc.
+With a PDA from that era, the situation was much more fragmented:
+PDA A → ARM + proprietary hardware
+PDA B → MIPS + different hardware
+PDA C → SH + different hardware
+PDA D → ARM + another SoC
+Each manufacturer had to put much more effort into integration.
+6. And later, that changed completely
+The most interesting part is that Linux ended up dominating the mobile/embedded world precisely through an evolution that led to systems like:
+Linux kernel
+     ↓
+Android
+     ↓
+smartphones / tablets / TVs / cars / IoT
+In other words, it wasn't a fundamental limitation of Linux.
+It was primarily a matter of ecosystem, manufacturer support, drivers, tools, APIs, and the business model.  And there is a huge historical difference between Windows CE/Pocket PC, embedded Linux, Symbian, and later systems. If you really want to understand what happened, I can explain the evolution from 1995 to 2010—covering ARM, Windows CE, Linux, Symbian, Palm, and Android—and why the market ultimately converged on ARM and Linux.
+
+
