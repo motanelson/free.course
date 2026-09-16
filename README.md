@@ -164,3 +164,4 @@ In other words, it wasn't a fundamental limitation of Linux.
 It was primarily a matter of ecosystem, manufacturer support, drivers, tools, APIs, and the business model.  And there is a huge historical difference between Windows CE/Pocket PC, embedded Linux, Symbian, and later systems. If you really want to understand what happened, I can explain the evolution from 1995 to 2010—covering ARM, Windows CE, Linux, Symbian, Palm, and Android—and why the market ultimately converged on ARM and Linux.
 
 
+
