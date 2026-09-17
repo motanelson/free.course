@@ -322,3 +322,105 @@ The loader therefore has a sort of dependency tree/graph.
 
 
 ---
+
+6. And now for the really interesting part: the 16-bit program
+
+This is where Windows 95 differs significantly.
+
+A typical Windows 3.x program might be:
+
+MEUPROG.EXE
+
+...but that EXE would normally be an NE (New Executable) file, not a PE file.
+
+It operated according to the segmented memory model of the 8086/80286/Windows 3.x era.
+
+Instead of the conceptual model:
+
+linear address
+0x00400000
+0x00401000
+...
+
+you had things like:
+
+segment : offset
+
+1234:0010
+1234:0050
+2345:0100
+
+
+---
+
+7. The 16-bit program was divided into segments
+
+A 16-bit EXE could have segments for:
+
+CODE
+DATA
+RESOURCE
+...
+
+For example:
+
+MEUPROG.EXE
+│
+├── CODE segment
+│
+├── DATA segment
+│
+├── DATA segment
+│
+└── RESOURCE segment
+
+Code could reference:
+
+CS:IP
+
+where:
+
+CS = Code Segment
+
+IP = Instruction Pointer
+
+
+And data could be referenced via:
+
+DS:offset
+
+where:
+
+DS = Data Segment
+
+
+
+---
+
+8. Windows 95 didn't simply "copy the entire EXE into RAM"
+
+This is important.
+
+The loader read the executable's structure and determined which segments existed.
+
+For example:
+
+DISK
+ │
+ │  MEUPROG.EXE
+ ▼
+Loader
+ │
+ ├── CODE
+ ├── DATA
+ ├── resources
+ └── imports
+
+The segments were then prepared within the memory system.
+
+With the 386 processor, Windows 95 could utilize virtual memory and protection mechanisms far more sophisticated than those available in Windows 3.x.
+
+
+---
+
+
