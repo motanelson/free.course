@@ -224,4 +224,101 @@ Modifiable data was another matter: you can't simply let all processes write to 
 
 
 ---
+4. How was a DLL function located?
 
+An EXE contained information about the DLLs it depended on.
+
+For example, conceptually:
+
+MEUPROG.EXE
+   │
+   └── USER32.DLL
+          │
+          └── CreateWindowEx
+
+The loader would look for the DLL and then resolve references to the functions.
+
+For instance, your program had something equivalent to:
+
+CreateWindowEx(...);
+
+The compiled code did not need to contain a copy of the CreateWindowEx implementation.
+
+The loader linked the program's reference to the function existing within the DLL.
+
+This is a form of dynamic linking.
+
+
+---
+
+5. What happened when you ran an EXE?
+
+Let's imagine:
+
+C:\WINDOWS\NOTEPAD.EXE
+
+When you double-clicked it:
+
+Step 1 — the Shell asks the system to execute the EXE
+
+Explorer/the Shell requests the creation of the process.
+
+Step 2 — the loader identifies the format
+
+Windows 95 could handle different executable formats, namely:
+
+NE — New Executable, used by 16-bit Windows;
+
+PE — Portable Executable, used by Win32 programs.
+
+
+This is extremely important for understanding Windows 95.
+
+Step 3 — the address space is created
+
+For a Win32 program, the system prepares the process's virtual address space.
+
+Step 4 — the EXE is mapped
+
+The EXE's code and data are placed/mapped into the address space.
+
+Conceptually:
+
+Process
+│
+├── EXE
+│   ├── code
+│   ├── data
+│   └── resources
+│
+├── DLL
+│
+├── DLL
+│
+├── heap
+│
+└── stack
+
+Step 5 — dependent DLLs are loaded
+
+If the EXE says:
+
+I need KERNEL32.DLL
+I need USER32.DLL
+I need GDI32.DLL
+
+the loader handles those dependencies.  And a DLL can depend on another:
+
+MEUPROG.EXE
+    │
+    ├── KERNEL32.DLL
+    │       └── another DLL
+    │
+    ├── USER32.DLL
+    │
+    └── GDI32.DLL
+
+The loader therefore has a sort of dependency tree/graph.
+
+
+---
