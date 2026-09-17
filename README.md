@@ -1,101 +1,99 @@
-Ele foi um sistema híbrido, combinando código de 16 e 32 bits, e marcou uma grande transição da arquitetura MS-DOS/Windows 3.x para um ambiente mais moderno.
- Podemos entender o Windows 95 através de várias camadas, do nível mais baixo ao mais alto:
+It was a hybrid system, combining 16-bit and 32-bit code, and marked a major transition from the MS-DOS/Windows 3.x architecture to a more modern environment.
+We can understand Windows 95 through several layers, from the lowest to the highest level:
 
- 1. Ferragens
+1. Hardware
 
- É a camada física:
+This is the physical layer:
 
- CPU (Intel 80386/80486/Pentium, por exemplo)
+CPU (Intel 80386/80486/Pentium, for example)
 
- BATER
+RAM
 
- disco rígido
+Hard drive
 
- placa gráfica
+Graphics card
 
- teclado, rato, etc.
+Keyboard, mouse, etc.
 
- O Windows 95 precisa de lidar com hardware muito variado através de seus drivers.
+Windows 95 had to handle a wide variety of hardware through its drivers.
 
- 2. BIOS e firmware
+2. BIOS and firmware
 
- A BIOS fazia a inicialização do computador e disponibilizava serviços básicos para o sistema operacional, como a detecção de hardware e a inicialização.
+The BIOS handled computer startup and provided basic services to the operating system, such as hardware detection and initialization.
 
- 3.MS-DOS
+3. MS-DOS
 
- Aqui está uma das características mais importantes do Windows 95.
- O Windows 95 depende do MS-DOS para arrancar.  Durante o processo de inicialização, o DOS carregava primeiro e depois o Windows assumia o controle.
- Por isso, dizer simplesmente que o Windows 95 era um sistema operativo de 32 bits é uma simplificação.
+This is one of the most important characteristics of Windows 95.
+Windows 95 relied on MS-DOS to boot up. During the startup process, DOS loaded first, and then Windows took control.
+Therefore, simply calling Windows 95 a 32-bit operating system is an oversimplification.
 
- 4. Drivers e acesso ao hardware
+4. Drivers and hardware access
 
- O Windows 95 modificou uma arquitetura de drivers mais moderna, incluindo o VxD (Virtual Device Driver).
- Os VxDs permitem ao sistema controlar dispositivos e recursos como:
+Windows 95 introduced a more modern driver architecture, including VxDs (Virtual Device Drivers).
+VxDs allowed the system to control devices and resources such as:
 
- memória;
+memory;
 
- discotecas;
+disk drives;
 
- placas de som;
+sound cards;
 
- placas de rede;
+network cards;
 
- dispositivos PCI.
+PCI devices.
 
- Eles funcionavam em camadas bastante privilegiadas do sistema.
+They operated at highly privileged system levels.
 
- 5. Kernel e componentes do sistema de 32 bits
+5. Kernel and 32-bit system components
 
- Esta é uma das grandes novidades.
- O Windows 95 tem vários componentes dinâmicos de 32 bits, capazes de tirar partido dos econômicos 386 e superiores.
- Entre eles estavam componentes relacionados com:
+This was one of the major new features.
+Windows 95 featured various dynamic 32-bit components capable of taking advantage of the 386 processor (and its successors).
+These included components related to:
 
- gestão de memória;
+memory management;
 
- processos e threads;
+processes and threads;
 
- sistema de arquivos;
+file systems;
 
- dispositivos;
+devices;
 
- comunicação entre aplicações.
+inter-application communication.
 
- Contudo, ainda existiam componentes importantes de 16 bits, herdados da arquitetura anterior.
+However, important 16-bit components inherited from the previous architecture still existed.  6. Win32
 
- 6.Win32
+The Win32 API provides applications with a 32-bit programming interface.
+For example, a program could ask Windows to:
 
- A API Win32 fornece às aplicações uma interface de programação de 32 bits.
- Por exemplo, um programa poderia pedir ao Windows para:
+create a window;
 
- criar uma janela;
+open a file;
 
- abrir um arquivo;
+allocate memory;
 
- reservar memória;
+create a thread;
 
- criar um tópico;
+communicate with another system component.
 
- comunicar com outro componente do sistema.
+This enabled the emergence of a new generation of 32-bit Windows applications.
 
- Isto permitiu que surgisse uma nova geração de aplicações Windows de 32 bits.
+7. 16-bit compatibility subsystems
 
- 7. Subsistemas de compatibilidade de 16 bits
+To maintain compatibility with the vast number of existing programs for Windows 3.x, Windows 95 still needed to run 16-bit software.
+Thus, the following coexisted:
+32-bit applications → Win32 → system components
+and
+16-bit applications → compatibility mechanisms → legacy components
+This compatibility is one of the reasons why the Windows 95 architecture appears quite complex.
 
- Para manter a compatibilidade com o enorme número de programas existentes para Windows 3.x, o Windows 95 ainda precisa de executar software de 16 bits.
- Assim, coexistiam:
- Aplicativos 32 bits → Win32 → componentes do sistema
- e
- Aplicações 16 bits → mecanismos de compatibilidade → componentes antigos
- Essa compatibilidade é uma das razões pelas quais a arquitetura do Windows 95 parece bastante complicada.
+8. Graphical Shell
 
- 8. Shell gráficos
+At the top was the interface seen by the user.
+Windows 95 featured the famous:
+Desktop → Start → Programs → Taskbar → Explorer
+Windows Explorer became a central part of the system experience.
 
- No topo estava a interface que o usuário via.
- O Windows 95 dinâmico o famoso:
- Área de Trabalho → Iniciar → Programas → Barra de Tarefas → Explorer
- O Windows Explorer tornou-se uma peça central da experiência do sistema.
+Summary
 
- Resumindo
-
- Uma representação simplificada seria:
- ┌─────────────────────────────┐ │ Aplicações Windows │  ├─────────────────────────────┤ │ API Win32 │  ├─────────────────────────────┤ │ Shell / Explorer / GUI │  ├─────────────────────────────┤ │ Componentes do Windows 95 │ │ 32 bits +  16 bits │ ├─────────────────────────────┤ │ Drivers / VxDs │  ├─────────────────────────────┤ │ MS-DOS │  ├─────────────────────────────┤ │ BIOS / Firmware │  ├─────────────────────────────┤ │ Hardware │  └─────────────────────────────┘
+A simplified representation would be:
+┌─────────────────────────────┐ │ Windows Applications │  ├─────────────────────────────┤ │ Win32 API │  ├─────────────────────────────┤ │ Shell / Explorer / GUI │  ├─────────────────────────────┤ │ Windows 95 Components │ │ 32-bit + 16-bit │ ├─────────────────────────────┤ │ Drivers / VxDs │  ├─────────────────────────────┤ │ MS-DOS │  ├─────────────────────────────┤ │ BIOS / Firmware │  ├─────────────────────────────┤ │ Hardware │  └─────────────────────────────┘
