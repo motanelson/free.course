@@ -97,3 +97,131 @@ Summary
 
 A simplified representation would be:
 ┌─────────────────────────────┐ │ Windows Applications │  ├─────────────────────────────┤ │ Win32 API │  ├─────────────────────────────┤ │ Shell / Explorer / GUI │  ├─────────────────────────────┤ │ Windows 95 Components │ │ 32-bit + 16-bit │ ├─────────────────────────────┤ │ Drivers / VxDs │  ├─────────────────────────────┤ │ MS-DOS │  ├─────────────────────────────┤ │ BIOS / Firmware │  ├─────────────────────────────┤ │ Hardware │  └─────────────────────────────┘
+
+
+Yes. In Windows 95, it is useful to distinguish between EXE programs, DLLs, virtual memory, 16-bit segments, and 32-bit modules, because the model was hybrid.
+
+1. The main libraries available to a program
+
+For a typical Win32 program, the simplified chain was:
+
+YOURPROGRAM.EXE
+               │
+               ▼
+          KERNEL32.DLL
+               │
+        ┌──────┴──────┐
+        ▼             ▼
+     USER32.DLL    GDI32.DLL
+        │             │
+        └──────┬──────┘
+               ▼
+        USER/GDI internally
+               │
+               ▼
+        Drivers / VxDs / hardware
+
+The most important DLLs included:
+
+KERNEL32.DLL — fundamental services: memory, files, processes, threads, synchronization, etc.
+
+USER32.DLL — windows, messages, keyboard, mouse, menus, controls, and interface.
+
+GDI32.DLL — 2D graphics, fonts, bitmaps, drawing.
+
+ADVAPI32.DLL — more advanced services, such as the Registry and security.
+
+SHELL32.DLL — shell/Explorer functionality.
+
+COMDLG32.DLL — common dialog boxes, such as Open/Save.
+
+OLE32.DLL / OLEAUT32.DLL — OLE/COM and automation.
+
+These were shared DLLs. The program did not need to have a physical copy of each library inside its EXE.
+
+---
+
+2. The EXE and DLLs in memory
+
+Imagine you have:
+
+MYPROG.EXE
+    │
+    ├── calls CreateFile()
+    ├── calls CreateWindow()
+    └── calls BitBlt()
+
+During loading, Windows checks which DLLs are required.
+
+For example:
+
+MYPROG.EXE
+     │
+     ├──────────► KERNEL32.DLL
+     │
+     ├──────────► USER32.DLL
+     │
+     └──────────► GDI32.DLL
+
+Each DLL was loaded as a module into the process's address space.  A conceptual simplification would be:
+
+Process address space
+┌──────────────────────────────┐
+│ MEUPROG.EXE                  │
+│ code + data                  │
+├──────────────────────────────┤
+│ KERNEL32.DLL                 │
+│ code + data                  │
+├──────────────────────────────┤
+│ USER32.DLL                   │
+│ code + data                  │
+├──────────────────────────────┤
+│ GDI32.DLL                    │
+│ code + data                  │
+├──────────────────────────────┤
+│ other DLLs                   │
+├──────────────────────────────┤
+│ heap                         │
+├──────────────────────────────┤
+│ stack                        │
+└──────────────────────────────┘
+
+This is a simplification, because Windows 95 had specific details regarding mapping, segments, and shared memory.
+
+
+---
+
+3. DLL code could be shared
+
+Here is a very important concept.
+
+If you had:
+
+PROGRAMA_A.EXE ──► USER32.DLL
+PROGRAMA_B.EXE ──► USER32.DLL
+PROGRAMA_C.EXE ──► USER32.DLL
+
+it wasn't necessary to keep three physical copies of the USER32.DLL code in RAM.
+
+The system could share code pages across processes.
+
+Conceptually:
+
+RAM
+              │
+       ┌──────▼───────┐
+       │ USER32 code  │
+       └──────┬───────┘
+              │
+       ┌──────┼─────────────┐
+       │      │             │
+       ▼      ▼             ▼
+    Proc A  Proc B       Proc C
+
+Each process had its own view/address of the library, but the code could be physically shared.
+
+Modifiable data was another matter: you can't simply let all processes write to the same global data.
+
+
+---
+
