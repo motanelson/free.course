@@ -507,3 +507,33 @@ The 32-bit program had a memory model much closer to that of modern operating sy
 ---
 
 
+11. But there was a "bridge" between the two worlds
+
+And this is perhaps the most fascinating feature of Windows 95.
+
+You could have:
+
+┌──────────────────────┐
+│ 32-bit application   │
+│       PE             │
+└──────────┬───────────┘
+           │
+         Win32
+           │
+           ▼
+┌──────────────────────┐
+│ Windows components   │
+│ 16/32-bit            │
+└──────────┬───────────┘
+           │
+           ▼
+┌──────────────────────┐
+│ MS-DOS / VxD / BIOS  │
+└──────────┬───────────┘
+           │
+           ▼
+        Hardware
+
+Therefore, "Windows 95 = fully 32-bit operating system" does not correctly describe the architecture.
+
+It was a combination of new 32-bit technologies and a vast amount of 16-bit infrastructure required to maintain compatibility.
