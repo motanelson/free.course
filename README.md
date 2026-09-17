@@ -423,4 +423,87 @@ With the 386 processor, Windows 95 could utilize virtual memory and protection m
 
 ---
 
+9. What about 16-bit DLLs?
+
+There were 16-bit DLLs as well.
+
+For example, an application might depend on a DLL:
+
+MEUPROG.EXE
+     │
+     ├── KERNEL
+     ├── USER
+     ├── GDI
+     └── MINHADLL.DLL
+
+In the 16-bit Windows world, some of the fundamental libraries were historically:
+
+KERNEL
+USER
+GDI
+
+In Windows 3.x versions, they appeared, for example, as:
+
+KERNEL286/386
+USER
+GDI
+
+depending on the version/configuration.
+
+Windows 95 still included a large number of compatibility components to support this ecosystem.
+
+
+---
+
+10. A fundamental difference: 16-bit segments vs. 32-bit linear space
+
+This is probably the best way to visualize the transition:
+
+16-bit model
+
+CPU
+           │
+       CS:IP
+           │
+           ▼
+      CODE SEGMENT
+           │
+           ▼
+      instructions
+
+And:
+
+DS
+           │
+           ▼
+      DATA SEGMENT
+           │
+           ▼
+        data
+
+Win32 model
+
+Conceptually:
+
+virtual address
+                │
+                ▼
+       ┌─────────────────┐
+       │     EXE         │
+       │ code + data     │
+       ├─────────────────┤
+       │     DLL         │
+       ├─────────────────┤
+       │     DLL         │
+       ├─────────────────┤
+       │      heap       │
+       ├─────────────────┤
+       │      stack      │
+       └─────────────────┘
+
+The 32-bit program had a memory model much closer to that of modern operating systems.
+
+
+---
+
 
