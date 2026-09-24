@@ -61,5 +61,11 @@ https://sourceforge.net/projects/asimplesmssende/
 
 
 
+https://sourceforge.net/projects/smsdecoder/
+
+
+
+
+
 
 
