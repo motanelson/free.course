@@ -1,6 +1,1 @@
-
-
-
-https://youtu.be/MWw9FaWgjcg?si=2ZSngyDLljEH_JXH
-
-
+https://en.wikipedia.org/wiki/Old_Testament
