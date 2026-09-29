@@ -1,1 +1,1 @@
-https://en.wikipedia.org/wiki/Old_Testament
+https://en.wikipedia.org/wiki/Trigonometric_functions
