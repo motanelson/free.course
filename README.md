@@ -1,1 +1,1 @@
-https://en.wikipedia.org/wiki/Trigonometric_functions
+https://youtu.be/LjiiayrKiuk?si=cxUjiSFX6BUdPAEJ
