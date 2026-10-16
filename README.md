@@ -1,7 +1,1 @@
-https://labs.google/playground
-
-
-https://discord.gg/MwDyW5C9YT
-
-
-
+https://devblogs.microsoft.com/cppblog/msvc-build-tools-version-14-52-release-candidate-now-available/
