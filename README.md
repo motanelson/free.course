@@ -16,4 +16,8 @@ https://thequantumlaend.de/quantum-circuit-designer/
 
 
 
+https://quirk-e.dev/
+
+
+
 
