@@ -12,3 +12,8 @@ https://algassert.com/quirk
 
 
 
+https://thequantumlaend.de/quantum-circuit-designer/
+
+
+
+
