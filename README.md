@@ -7,3 +7,8 @@ https://quantum.microsoft.com/en-us/tools/microsoft-quantum-development-kit
 
 
 
+
+https://algassert.com/quirk
+
+
+
